@@ -65,7 +65,7 @@ public static void main(String[] args) {
 			
 						int year = scanner.nextInt();
 						String yun = "";
-						if(year % 4 == 0 && year % 100 != 0 || year % 400) {
+						if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
 							yun = "윤년";
 							
 						}else {
