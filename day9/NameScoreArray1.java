@@ -3,7 +3,7 @@ package day9;
 import java.util.Scanner;
 
 public class NameScoreArray1 {
-public void test3(){
+public void menu9(){
 	Scanner scanner = new Scanner(System.in);
 	System.out.println("학생수 몇명?");
 	int count = scanner.nextInt();
@@ -22,7 +22,7 @@ public void test3(){
 			for(int i=0;i<names.length;i++) {
 				names[i] = scanner.next();
 				scores[i] = scanner.nextInt();
-				na += names[i]+","+scores[i];
+				na += names[i]+":"+scores[i];
 			}
 			System.out.println(na);break;
 		}
@@ -30,8 +30,5 @@ public void test3(){
 	
 			
 }
-	public static void main(String[] args) {
-	NameScoreArray1 a = new NameScoreArray1();
-	a.test3();
-}
+	
 }

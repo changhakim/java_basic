@@ -1,7 +1,7 @@
 package day9;
 
 public class NameArray2 {
-	public void test() {
+	public void menu6() {
 		String[] name = {"홍길동","유관순","이순신"};
 		
 		String a = "";
@@ -12,8 +12,5 @@ public class NameArray2 {
 	}
 
 
-public static void main(String[] args) {
-	NameArray2 a = new NameArray2();
-	a.test();
-}
+
 }

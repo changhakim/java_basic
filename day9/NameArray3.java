@@ -3,7 +3,7 @@ package day9;
 import java.util.Scanner;
 
 public class NameArray3 {
-	public void test() {
+	public void menu7() {
 		Scanner scanner = new Scanner(System.in);
 		int[] num = new int[3];
 		String res = "";
@@ -20,8 +20,5 @@ public class NameArray3 {
 	}
 
 
-public static void main(String[] args) {
-	NameArray3 a = new NameArray3();
-	a.test();
-}
+
 }

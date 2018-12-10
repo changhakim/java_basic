@@ -1,6 +1,6 @@
 package day6;
 import java.util.Scanner;
-public class Sunggong {
+public class Engine {
 public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
 	

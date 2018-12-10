@@ -2,8 +2,8 @@ package day9;
 
 import java.util.Scanner;
 
-public class Score {
-	public void test1() {
+public class ScoreArray {
+	public void menu11() {
 	Scanner scanner = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요");
 		int[] sc = new int[3];
@@ -28,10 +28,6 @@ public class Score {
 		
 		
 			
-		public static void main(String[] args) {	
-	Score a = new Score();
-		a.test1();
 		
-		}
 }
 
